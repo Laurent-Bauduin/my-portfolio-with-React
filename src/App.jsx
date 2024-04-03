@@ -1,6 +1,13 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
 
+const myself = {
+  firstName: "Laurent",
+  lastName: "Bauduin",
+  img: "src/assets/Laurent.jpg",
+  location: "Valenciennes - France",
+};
+
 function App() {
   return (
     <>
