@@ -6,12 +6,13 @@ const myself = {
   lastName: "Bauduin",
   img: "src/assets/Laurent.jpg",
   location: "Valenciennes - France",
+  job: "Full-stack Web Developer",
 };
 
 function App() {
   return (
     <>
-      <Header />
+      <Header myselfProps={myself} />
       <main>
         <section id="section-photo">
           <img src="src/assets/Laurent.jpg" id="photo" />
