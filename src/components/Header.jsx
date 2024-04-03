@@ -18,8 +18,6 @@ Header.propTypes = {
   myselfProps: PropTypes.shape({
     firstName: PropTypes.string.isRequired,
     lastName: PropTypes.string.isRequired,
-    img: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
     job: PropTypes.string.isRequired,
   }).isRequired,
 };
